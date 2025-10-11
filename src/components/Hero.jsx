@@ -1,6 +1,6 @@
 // import iconDark from './assets/fairykey-icon-dark.png'
 import iconLight from '../assets/fairykey-icon-light.png'
-const downloadUrl = "https://google.com"
+const downloadUrl = "https://github.com/FairyKey/FairyKey/releases/download/v1.0.3/FairyKey-v1.0.3-win-x64.zip"
 
 function Hero() {
     return (
