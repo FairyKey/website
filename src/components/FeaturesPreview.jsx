@@ -13,8 +13,8 @@ function FeaturesPreview() {
     }
 
     return (
-        <div className="flex w-full flex-col lg:flex-row items-center justify-center gap-4">
-            <div className="relative w-full lg:w-1/2 max-w-3xl aspect-video">
+        <div className="flex w-full flex-col md:flex-row items-center justify-center gap-4">
+            <div className="relative  w-full aspect-video">
                 <video
                     src={screenshot1}
                     loop
