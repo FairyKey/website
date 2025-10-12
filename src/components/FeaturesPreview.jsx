@@ -21,7 +21,7 @@ function FeaturesPreview() {
                     muted
                     autoPlay
                     playsInline
-                    className={`relative w-full object-contain transition-opacity duration-300 ${currentScreenshot === screenshot1 ? 'opacity-100' : 'opacity-0'}`}
+                    className={`relative w-full h-full md:h-auto object-contain transition-opacity duration-300 ${currentScreenshot === screenshot1 ? 'opacity-100' : 'opacity-0'}`}
                     alt="Preview video of Fairy Key - Auto Scrolling"
                 />
                 <video
@@ -53,7 +53,7 @@ function FeaturesPreview() {
                 <PreviewBtn
                     title="Noob Mode 😋"
                     description="Non shifted notes are counted as correct notes."
-                    onClick={() => handleButtonClick('noobMode', screenshot1)}
+                    onClick={() => handleButtonClick('noobMode', screenshot1)} // placeholder
                     isActive={activeButton === 'noobMode'}
                 />
             </div>
