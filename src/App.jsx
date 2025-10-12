@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Features from './components/FeaturesPreview'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import SheetsGuide from './components/SheetFormatPreview'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className="p-4 max-w-7xl mx-auto flex flex-col items-center">
         < Hero />
         < Features />
+        < SheetsGuide />
       </main>
 
       {/* < Footer /> */}
