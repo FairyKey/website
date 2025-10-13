@@ -5,7 +5,7 @@ import Features from './components/FeaturesPreview'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import SheetsGuide from './components/SheetFormatPreview'
-
+import Contribute from './components/Contribute'
 function App() {
   return (
     <div className="overflow-x-hidden min-h-screen flex flex-col">
@@ -15,8 +15,9 @@ function App() {
         < Hero />
         < Features />
         < SheetsGuide />
+        < Contribute />
       </main>
-
+      
       {/* < Footer /> */}
     </div>
   )
