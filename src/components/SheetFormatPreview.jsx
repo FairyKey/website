@@ -1,5 +1,7 @@
 import React from 'react'
 
+const TransposeDetectorUrl="https://github.com/FairyKey/FairyKey/discussions/3#discussioncomment-14650256"
+
 function SheetFormatPreview() {
     return (
         <div className='text-left flex flex-col md:flex-row mt-15 items-stretch'>
@@ -13,7 +15,7 @@ function SheetFormatPreview() {
                     display them at the beginning of the sheet.
                 </p>
 
-                <div className='flex items-baseline mt-5'>
+                <div className='flex items-baseline mt-8'>
                     <h1 className='text-2xl text-left font-semibold'>Transpose detector v2</h1>
                     <span className='bg-sky-400 font-bold text-white rounded-lg px-2.5 py-1 ml-2'>
                         New
@@ -21,11 +23,10 @@ function SheetFormatPreview() {
                 </div>
 
                 <p>
-                    Fairy Key can detect multiple forms of transpose labels often found in
-                    sheets online.</p>
-                <p className='pt-2'> Some examples of {''}
+                    Fairy Key can detect multiple forms of transpose labels often found in sheets online.</p>
+                <p className='pt-6'> Some examples of {''}
                     <a
-                        href="https://github.com/FairyKey/FairyKey/discussions/3#discussioncomment-14650256"
+                        href={TransposeDetectorUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sky-500 hover:underline font-semibold"
