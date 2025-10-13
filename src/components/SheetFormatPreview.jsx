@@ -2,7 +2,7 @@ import React from 'react'
 
 function SheetFormatPreview() {
     return (
-        <div className='text-left flex flex-col md:flex-row mt-10 items-stretch'>
+        <div className='text-left flex flex-col md:flex-row mt-15 items-stretch'>
 
             {/* left side */}
             <div className='p-5 max-w-sm flex-shrink-0'>
@@ -53,8 +53,8 @@ function SheetFormatPreview() {
             </div>
 
             {/* right side */}
-            <div className='m-5 font-mono drop-shadow-sm flex-1 flex flex-col max-h-110 w-sm'>
-                <div className='bg-neutral-700 text-neutral-200 rounded-t-lg p-4 pl-4'>
+            <div className="m-5 font-mono drop-shadow-sm flex-1 flex flex-col max-h-110 max-w-md md:w-sm">
+                <div className="bg-neutral-700 text-neutral-200 rounded-t-lg p-4">
                     <span>clairdelune.txt</span>
                 </div>
                 <div
