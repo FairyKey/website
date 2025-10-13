@@ -8,9 +8,9 @@ function SheetFormatPreview() {
             <div className='p-5 max-w-sm flex-shrink-0'>
                 <h1 className='text-2xl text-left font-semibold'>Sheet formatting</h1>
                 <p>
-                    Fairy Key reads sheets written in virtual piano-style notation. Optionally,
-                    metadata such as Title, Artist and the sheet's creator can be added to
-                    display them at the beginning of the sheet in Fairy Key.
+                    Fairy Key reads sheets written in virtual piano-style notation. Optional
+                    metadata such as Title, Artist, and the sheet's creator can be added to
+                    display them at the beginning of the sheet.
                 </p>
 
                 <div className='flex items-baseline mt-5'>

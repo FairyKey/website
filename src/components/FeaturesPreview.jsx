@@ -48,14 +48,14 @@ function FeaturesPreview() {
             <div className="w-full flex flex-col gap-1 max-w-md">
                 <PreviewBtn
                     title="Auto-scroll 📜"
-                    description="Fairy Key scrolls for you in Play mode as you play the correct notes! Fairy Key can be overlayed on top of your Virtual Piano app and inputs are passed through while in Play Mode."
+                    description="Scroll through any sheet by playing along in your virtual piano app of choice as both apps receive inputs during Play Mode!"
                     onClick={() => handleButtonClick('autoScrolling', screenshot1)}
                     isActive={activeButton === 'autoScrolling'}
                 />
 
                 <PreviewBtn
                     title="Library 📚"
-                    description="Quick access to all of your saved sheets. You can use the Sheet Library to quickly play, edit, and delete saved sheets!"
+                    description="Quick access to all of your saved sheets. You can use the Sheet Library to play, edit, and delete saved sheets."
                     onClick={() => handleButtonClick('library', screenshot2)}
                     isActive={activeButton === 'library'}
                 />
