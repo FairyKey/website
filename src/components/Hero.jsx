@@ -42,17 +42,21 @@ function Hero() {
             <img
                 src={iconLight}
                 alt="Fairykey icon"
-                className="logo w-full md:max-w-100 max-w-sm ml-10 md:ml-0"
+                className="logo w-full md:max-w-100 max-w-sm ml-10 md:ml-0 
+                transform transition-transform duration-200 ease-out 
+                hover:scale-110 active:scale-95 active:duration-75 cursor-pointer"
             />
 
             <div className="w-full max-w-100 border-0 border-gray-50 rounded-sm md:mr-15 ">
                 <h2 className="text-5xl font-bold mb-2">Fairy Key</h2>
                 <h1 className="text-2xl text-center">a virtual piano sheet scroller</h1>
 
-                <div className="flex max-[400px]:flex-col m-5 justify-center items-center flex-row gap-5 max-[400px]:gap-1">
+                <div className="flex max-[400px]:flex-col m-5 justify-center 
+                items-center flex-row gap-5 max-[400px]:gap-1">
                     <a
                         href={downloadUrl}
-                        className="text-white bg-sky-400 hover:bg-sky-600 focus:ring-blue-300 font-medium rounded-full p-5 cursor-pointer">
+                        className="text-white bg-sky-400 hover:bg-sky-600 
+                        focus:ring-blue-300 font-medium rounded-full p-5 cursor-pointer">
                         Download
                     </a>
 
