@@ -1,8 +1,8 @@
 import githubLogo from '../assets/github.svg'
 import { useState } from 'react'
 
-const GettingStartedUrl = "https://wiki.fairykey.app/gettingstarted"
-const WikiUrl = "https://wiki.fairykey.app"
+const GettingStartedUrl = "http://wiki.fairykey.app"
+const WikiUrl = "http://wiki.fairykey.app"
 const GithubRepoUrl = "https://github.com/FairyKey/FairyKey"
 
 function Navbar() {
