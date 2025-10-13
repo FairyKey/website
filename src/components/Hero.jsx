@@ -1,5 +1,4 @@
-// import iconDark from './assets/fairykey-icon-dark.png'
-import iconLight from '../assets/fairykey-icon-light.png'
+import InteractiveIcon from './InteractiveIcon'
 import { useEffect, useState } from 'react'
 
 function Hero() {
@@ -39,13 +38,7 @@ function Hero() {
 
     return (
         <div className="flex flex-col md:flex-row-reverse justify-center items-center ">
-            <img
-                src={iconLight}
-                alt="Fairykey icon"
-                className="logo w-full md:max-w-100 max-w-sm ml-10 md:ml-0 
-                transform transition-transform duration-200 ease-out 
-                hover:scale-110 active:scale-95 active:duration-75 cursor-pointer"
-            />
+            < InteractiveIcon />
 
             <div className="w-full max-w-100 border-0 border-gray-50 rounded-sm md:mr-15 ">
                 <h2 className="text-5xl font-bold mb-2">Fairy Key</h2>
