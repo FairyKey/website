@@ -54,14 +54,14 @@ function SheetFormatPreview() {
             </div>
 
             {/* right side */}
-            <div className="m-5 font-mono drop-shadow-sm flex-1 flex flex-col max-h-110 max-w-md md:w-sm">
+            <div className="m-5 font-mono drop-shadow-sm flex-1 flex flex-col max-h-[27.5rem] max-w-md md:w-sm">
                 <div className="bg-neutral-700 text-neutral-200 rounded-t-lg p-4">
                     <span>clairdelune.txt</span>
                 </div>
                 <div
                     className='flex-1 overflow-y-scroll 
             [&::-webkit-scrollbar]:w-2
-            [&::-webkit-scrollbar-track]:bg-neutral-700
+            [&::-webkit-scrollbar-track]:bg-transparent
             [&::-webkit-scrollbar-thumb]:bg-neutral-500
             [&::-webkit-scrollbar-thumb]:rounded-lg
             bg-neutral-800 text-neutral-100 rounded-b-lg p-4
